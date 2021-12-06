@@ -9,6 +9,7 @@
   --white-text-color: #ffffff;
   --accent-color: #2196f3;
   --btn-color: #f5f4fa;
+  --portfolio-border-color: #757575;
 }
 h1,
 h2,
@@ -48,6 +49,10 @@ body {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ----------------header------------ */
 .header {
@@ -172,12 +177,10 @@ body {
 .about {
   background-color: var(--main-background-color);
 }
-.about-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .about-list-container {
   display: flex;
+  padding-bottom: 94px;
 }
 .about-list-item {
   width: calc((100%-30px) / 4);
@@ -227,10 +230,7 @@ body {
 .team {
   background-color: var(--fourth-background-color);
 }
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .team-card-content {
   background-color: var(--white-background-color);
   padding: 30px 60px;
@@ -312,10 +312,7 @@ body {
 }
 
 /* -----------------------PORTFOLIO------------------- */
-.portfolio-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .portfolio-hero {
   background-color: var(--main-background-color);
 }
@@ -361,6 +358,7 @@ body {
 }
 .portfolio-card-description {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .portfolio-item-title {
   font-weight: 700;
