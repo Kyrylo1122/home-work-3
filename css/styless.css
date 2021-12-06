@@ -110,8 +110,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.header-contact:focus,
-.header-contact:hover {
+.header-contact-item:focus,
+.header-contact-item:hover {
   color: var(--accent-color);
 }
 
