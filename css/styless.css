@@ -47,7 +47,8 @@ body {
 }
 .container {
   width: 1200px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -175,6 +176,9 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.about-section {
+  padding-bottom: 0;
+}
 .about {
   background-color: var(--main-background-color);
 }
@@ -215,7 +219,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .work-list {
   display: flex;
@@ -234,7 +238,8 @@ body {
 
 .team-card-content {
   background-color: var(--white-background-color);
-  padding: 30px 60px;
+  padding: 30px 0;
+  text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
