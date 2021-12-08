@@ -11,18 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
+     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     />
     <link rel="stylesheet" href="./css/styless.css" />
   </head>
 
   <body>
-    <!--  header -->
+   <!--  header -->
+    <section class="header-section">
     <header class="header">
       <div class="container header-container">
         <nav class="nav-container">
@@ -32,11 +31,13 @@
 
           <ul class="header-list">
             <li class="item">
-              <a href="./index.html" class="header-navigation link">Студия</a>
+              <a href="./index.html" class="current header-navigation link"
+                >Студия</a
+              >
             </li>
 
             <li class="item">
-              <a href="./portfolio.html" class="current header-navigation link"
+              <a href="./portfolio.html" class="header-navigation link"
                 >Портфолио</a
               >
             </li>
@@ -61,6 +62,7 @@
         </ul>
       </div>
     </header>
+    </section>
 
     <!-- -----------hero---------- -->
     <section class="section portfolio-hero">
@@ -215,30 +217,30 @@
        
     </section>
     <!--------------------footer----------------->
-    <footer class="footer">
-      <div class="container footer-container">
-      <a href="./index.html" class="logo link"
-        >Web<span class="accent-footer">Studio</span></a
-      >
-      
-      <div class="footer-addres-box"><address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="">
-        <li class="footer-contact-item">
-          <a href="mailto:info@devstudio.com" class="footer-contact link"
-            >info@devstudio.com
-          </a>
-        </li>
-        <li class="footer-contact-item">
-          <a href="tel:+380961111111" class="footer-contact link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </div>
+     <footer class="footer-section">
+      <div class="container ">
+        <a href="./index.html" class="logo link"
+          >Web<span class="accent-footer">Studio</span></a
+        >
+
+        <div class="footer-addres-box">
+          <address class="footer-address">
+            г. Киев, пр-т Леси Украинки, 26
+          </address>
+          <ul class="">
+            <li class="footer-contact-item">
+              <a href="mailto:info@devstudio.com" class="footer-contact link"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="footer-contact-item">
+              <a href="tel:+380961111111" class="footer-contact link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    
-      
-      
     </footer>
   </body>
 </html>
