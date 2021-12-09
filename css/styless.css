@@ -35,7 +35,6 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   color: var(--first-text-color);
-  background-color: var(--main-background-color);
 }
 
 .link {
@@ -58,10 +57,11 @@ body {
 }
 /* ----------------header------------ */
 
-.header-section {
+.header {
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: var(--white-background-color);
+  border: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -179,9 +179,6 @@ body {
 }
 .about-section {
   padding-bottom: 0;
-}
-.about {
-  background-color: var(--main-background-color);
 }
 
 .about-list-container {
@@ -318,9 +315,6 @@ body {
 
 /* -----------------------PORTFOLIO------------------- */
 
-.portfolio-hero {
-  background-color: var(--main-background-color);
-}
 .btn-list {
   display: flex;
   justify-content: center;
